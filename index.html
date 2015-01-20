@@ -1,41 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Drop7js by bnkrr</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Drop7js</h1>
-        <p>js edition of game drop7</p>
-
-        <p class="view"><a href="https://github.com/bnkrr/drop7js">View the Project on GitHub <small>bnkrr/drop7js</small></a></p>
+<head>
+<title>Drop7</title>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<style type="text/css">
+  td {text-align: right;}
+</style>
 
 
-        <ul>
-          <li><a href="https://github.com/bnkrr/drop7js/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/bnkrr/drop7js/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/bnkrr/drop7js">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p>homepage</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/bnkrr">bnkrr</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+</head>
+<body>
+<div id="aaa" class="q r s" sb="true">
+
+<table border="1">
+  <tr>
+    <td id="s">start</td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr>
+    <td>Score</td>
+    <td id="score" width="20">0</td>
+  </tr>
+  <tr>
+    <td>Steps</td>
+    <td id="step">0</td>
+  </tr>
+  <tr>
+    <td>Level</td>
+    <td id="level">1</td>
+  </tr>
+  <tr>
+    <td>Next</td>
+    <td id="next">0</td>
+  </tr>
+</table>
+</div>
+
+<div id="mat"></div>
+<div id="ctrl"></div>
+
+<div>
+<button type="button" id="b1">One Frame</button>
+</div>
+
+<div id="stdout" class="q s"></div>
+</body>
+  <script src="js0.js"></script>
 </html>
